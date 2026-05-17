@@ -18,7 +18,7 @@ function CandidateForm() {
         try {
 
             await axios.post(
-                "http://localhost:5000/api/candidates",
+                "https://candidate-backend-nzo6.onrender.com/api/candidates",
                 {
                     ...formData,
                     skills: formData.skills.split(",")

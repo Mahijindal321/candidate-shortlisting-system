@@ -11,7 +11,7 @@ function MatchCandidates() {
 
             const response = await axios.post(
 
-                "http://localhost:5000/api/match",
+                "https://candidate-backend-nzo6.onrender.com/api/match",
 
                 {
                     requiredSkills: ["React", "Node.js"],

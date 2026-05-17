@@ -11,7 +11,7 @@ function AIShortlist() {
         try {
 
             const response = await axios.post(
-                "http://localhost:5000/api/ai/shortlist"
+                "https://candidate-backend-nzo6.onrender.com/api/ai/shortlist"
             );
 
             setAiResult(
